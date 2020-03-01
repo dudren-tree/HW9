@@ -1,0 +1,179 @@
+body {
+  background-color: black;
+  margin: 0 auto;
+}
+
+.wrapper {
+  margin: 0 auto;
+  height: 900px;
+  width: 960px;
+  background-image: url(../img/background.png);
+  padding-top: 75px;
+}
+
+.top-menu {
+  position: relative;
+  margin: 0 70px;
+}
+
+.contact {
+  position: absolute;
+  color: #d1d1d1;
+  right: 0px;
+  top: 90px;
+}
+
+.contact li:first-child {
+  font-weight: bold;
+}
+
+.main {
+  margin: 0 70px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 282px 282px 282px;
+      grid-template-columns: 282px 282px 282px;
+  position: relative;
+}
+
+.border {
+  margin: 30px 9px;
+  border: 2px solid #9d9d9d;
+}
+
+.india {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url(../img/india_photo.png);
+  width: 260px;
+  height: 180px;
+  -webkit-box-shadow: inset 0 0 6px;
+          box-shadow: inset 0 0 6px;
+}
+
+.india p {
+  color: #e6e6e6;
+  position: absolute;
+  bottom: 250px;
+}
+
+.nepal {
+  background-image: url(../img/nepal_photo.png);
+  width: 260px;
+  height: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: inset 0 0 6px;
+          box-shadow: inset 0 0 6px;
+}
+
+.nepal p {
+  color: #e6e6e6;
+  position: absolute;
+  bottom: 250px;
+}
+
+.tibet {
+  background-image: url(../img/tibet_photo.png);
+  width: 260px;
+  height: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: inset 0 0 6px;
+          box-shadow: inset 0 0 6px;
+}
+
+.tibet p {
+  color: #e6e6e6;
+  position: absolute;
+  bottom: 250px;
+}
+
+.bhutan {
+  background-image: url(../img/bhutan_photo.png);
+  width: 260px;
+  height: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: inset 0 0 6px;
+          box-shadow: inset 0 0 6px;
+}
+
+.bhutan p {
+  color: #e6e6e6;
+  position: absolute;
+  bottom: 0;
+}
+
+.shri-lanka {
+  background-image: url(../img/sri-lanka-photo.png);
+  width: 260px;
+  height: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: inset 0 0 6px;
+          box-shadow: inset 0 0 6px;
+}
+
+.shri-lanka p {
+  color: #e6e6e6;
+  position: absolute;
+  bottom: 0;
+}
+
+.maldiv {
+  background-image: url(../img/maldives_photo.png);
+  width: 260px;
+  height: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: inset 0 0 6px;
+          box-shadow: inset 0 0 6px;
+}
+
+.maldiv p {
+  color: #e6e6e6;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer p {
+  color: #b9b9b9;
+  position: absolute;
+  top: 110px;
+}
+/*# sourceMappingURL=style.css.map */
